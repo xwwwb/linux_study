@@ -11,9 +11,9 @@ public:
 	~A(){
 		cout<<"析构器"<< endl;
 	}
-}
+};
 
 int main(){
 	A* p = new A(1,2);
+	delete p;
 }
-

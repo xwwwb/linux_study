@@ -1,0 +1,13 @@
+# shell脚本的参数
+echo "第一个参数"
+echo $1
+echo "第二个参数"
+echo $2
+echo "第三个参数"
+echo $3
+echo "第零个参数"
+echo $0
+echo "参数个数"
+echo $#
+echo "所有参数"
+echo $*
