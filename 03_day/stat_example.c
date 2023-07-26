@@ -5,6 +5,8 @@
 #include <sys/sysmacros.h>
 #include <time.h>
 
+// 出自man手册
+
 int main(int argc, char *argv[]) {
   struct stat sb;
 
